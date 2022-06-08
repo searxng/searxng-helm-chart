@@ -24,9 +24,9 @@ Kubernetes: `>=1.16.0-0`
 To install the chart with the release name `searxng`
 
 ```console
-git clone https://github.com/searxng/searxng.git
-cd kubernetes/chart
-helm install searxng .
+helm repo add searxng https://charts.searxng.org
+helm repo update
+helm install searxng searxng/searxng
 ```
 
 ## Uninstalling the Chart
