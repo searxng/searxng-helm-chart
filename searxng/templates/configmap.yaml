@@ -1,11 +1,9 @@
-{{- include "common.values.setup" . -}}
----
 apiVersion: v1
-kind: Secret
+kind: ConfigMap
 metadata:
-  name: {{ include "common.names.fullname" . }}-config
+  name: {{ include "searxng.fullname" . }}-config
   labels:
-    {{- include "common.labels" . | nindent 4 }}
+    {{- include "searxng.labels" . | nindent 4 }}
 data:
   settings.yml: |-
-{{ toYaml .Values.searxng.config | b64enc | indent 4 }}
+{{ toYaml .Values.searxng | indent 4 }}

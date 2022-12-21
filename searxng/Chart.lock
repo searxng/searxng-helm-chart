@@ -1,0 +1,6 @@
+dependencies:
+- name: redis
+  repository: https://charts.pascaliske.dev
+  version: 0.2.2
+digest: sha256:be131ad838e2d4a147da1440bbfb74c50ffee2ae2b7bd4ce6e68c977342f988a
+generated: "2022-12-21T18:58:04.08515531+01:00"
