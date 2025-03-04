@@ -74,7 +74,7 @@ The default values are in https://github.com/searxng/searxng/blob/master/searx/s
 | env.INSTANCE_NAME | string | `"my-instance"` | Your instance name |
 | env.BASE_URL | string | `"http://localhost:8080/"` | The base URL of your instance |
 | env.AUTOCOMPLETE | string | `"false"` | Enable or not the autocomplete by default |
-| redis.enable | bool | `false` | Deploy redis |
+| redis.enabled | bool | `false` | Deploy redis |
 
 ## Changelog
 
