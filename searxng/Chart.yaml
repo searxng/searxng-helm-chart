@@ -16,7 +16,7 @@ sources:
   - https://hub.docker.com/r/searxng/searxng
 maintainers:
   - name: unixfox
-    email: searxngatunixfoxdoteu
+    email: searxng@unixfoxremovemeifyouwanttocontactme.eu
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
