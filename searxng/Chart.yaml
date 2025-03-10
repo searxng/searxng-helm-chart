@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: latest
 description: SearXNG is a free internet metasearch engine which aggregates results from various search services and databases.
 name: searxng
-version: 1.0.0
+version: 1.0.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - searx
